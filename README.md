@@ -2,7 +2,7 @@
 
 > A practical cybersecurity testing lab was built with VirtualBox and Kali Linux, following the Week 1 Project Module 1 lab guide.
 ---------------------------
-##📌 Project Overview
+## 📌 Project Overview
 > This project focused on setting up a controlled virtual environment for
 cybersecurity and ethical-hacking practice.
 The laboratory used VirtualBox as the virtualization platform and
@@ -11,7 +11,7 @@ network is configured using a NAT Network with the 10.0.0.0/24
 subnet.
 ------------------------------------------------------------------------
 
-##🎯 Objectives
+## 🎯 Objectives
 
 The main objectives of this lab were to:
 
@@ -26,12 +26,12 @@ The main objectives of this lab were to:
 
 ------------------------------------------------------------------------
 
-##🏗️ Lab Architecture
+## 🏗️ Lab Architecture
 
 ### Main Environment
 
- |Component               |       Configuration
- |------------------------------ ------------------------
+ |Component                    |   Configuration
+ |-----------------------------|------------------------
  | Host OS                     |    Windows 11 |
  |Virtualization Platform      |  VirtualBox   |
  |Security / Attacking Machine |  Kali Linux   |
@@ -49,7 +49,7 @@ The guide recommended, but did not require:
 
 ------------------------------------------------------------------------
 
-##🛡️ Purpose of the Lab
+## 🛡️ Purpose of the Lab
 
 Kali Linux was configured as the main security-testing machine, while
 additional virtual machines could be introduced later as targets for
@@ -57,9 +57,9 @@ practical exercises.
 
 ------------------------------------------------------------------------
 
-##🪜 Lab Setup Procedure
+## 🪜 Lab Setup Procedure
 
-##Step 1 - Install 7-Zip
+### Step 1 - Install 7-Zip
 
 7-Zip was installed on the host computer.
 
@@ -89,9 +89,9 @@ A custom NAT Network was created in VirtualBox.
 
 Required network configuration :
 ```text
-**Network:** NATNetwork
-**IPv4 Prefix: **10.0.0.0/24
-**Enable DHCP**
+Network: NATNetwork
+IPv4 Prefix: 10.0.0.0/24
+Enable DHCP
 ```
 
 The NAT Network was configured to use the
@@ -117,8 +117,8 @@ previously created NAT Network.
 
 Kali Linux network
 ``` text
-**Network:** NATNetwork
-**IP Address:** 10.0.0.2/24
+Network: NATNetwork
+IP Address: 10.0.0.2/24
 ```
 
 
@@ -182,9 +182,9 @@ The following items were verified before considering the environment ready:
  | Check                |  Expected Configuration |
  |----------------------|------------------------ |
  |VirtualBox installed  | ✅                      |
- |NAT Network created   | 10.0.0.0/24             |
+ |NAT Network created   | `10.0.0.0/24`           |
  |Kali Linux imported   | ✅                       |
- | Kali IP address      |  10.0.0.2/24             |
+ | Kali IP address      |  `10.0.0.2/24`             |
  | Clipboard            |  Enabled                 |
  | Drag & Drop          |  Enabled                 |
  | Internet access      |  Available               |
@@ -226,7 +226,7 @@ address.
 
 ------------------------------------------------------------------------
 
-📚 What This Lab Covers
+# 📚 What This Lab Covers
 
 By completing this setup, the following concepts were practiced:
 1. Virtualization
@@ -267,7 +267,7 @@ restored before future exercises.
 
 ------------------------------------------------------------------------
 
-📌 Project Information
+#📌 Project Information
 
 Task: WK1-PM1
 Module: Project Module 1
