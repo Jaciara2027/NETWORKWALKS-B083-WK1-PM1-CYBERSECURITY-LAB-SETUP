@@ -1,10 +1,9 @@
-<img width="1308" height="948" alt="Captura de ecrã 2026-09-10 155429" src="https://github.com/user-attachments/assets/12515d14-f14b-48f1-8e71-17a98264367e" />#🔐 Cybersecurity Lab Environment Setup
+#🔐 Cybersecurity Lab Environment Setup
 
->A practical cybersecurity testing lab was built with VirtualBox and Kali Linux, following the Week 1 Project Module 1 lab guide.
+> A practical cybersecurity testing lab was built with VirtualBox and Kali Linux, following the Week 1 Project Module 1 lab guide.
 ---------------------------
 ##📌 Project Overview
-
-This project focused on setting up a controlled virtual environment for
+> This project focused on setting up a controlled virtual environment for
 cybersecurity and ethical-hacking practice.
 The laboratory used VirtualBox as the virtualization platform and
 Kali Linux as the attacking/security-testing machine. The virtual
@@ -97,9 +96,11 @@ Required network configuration :
 
 The NAT Network was configured to use the
 10.0.0.0/24 subnet.
+<img width="1308" height="948" alt="Captura de ecrã 2026-09-10 155429" src="https://github.com/user-attachments/assets/c480134d-08ec-484b-a4df-b8050b8dce7d" />
 This network was used by Kali Linux and by additional virtual
 machines added during future lab exercises.
-<img width="1308" height="948" alt="Captura de ecrã 2026-09-10 155429" src="https://github.com/user-attachments/assets/c480134d-08ec-484b-a4df-b8050b8dce7d" />
+<img width="1916" height="1004" alt="Captura de ecrã 2026-09-10 185305" src="https://github.com/user-attachments/assets/0d9903df-316b-489d-a56b-19709e91db58" />
+
 
 
 ------------------------------------------------------------------------
@@ -124,6 +125,8 @@ Kali Linux network
 ------------------------------------------------------------------------
 
 ### Step 5 - Configure Kali Linux
+<img width="945" height="1025" alt="Captura de ecrã 2026-09-10 193645" src="https://github.com/user-attachments/assets/9abfed9b-2842-4037-acd3-7ac823268f8e" />
+
 
 Kali Linux was configured according to the lab requirements.
 The required Kali Linux address is:
