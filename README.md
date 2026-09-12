@@ -32,7 +32,7 @@ The main objectives of this lab were to:
 
  |Component                    |   Configuration
  |-----------------------------|------------------------
- | Host OS                     |    Windows 11 |
+ | Host OS                     |    Windows 11 Pro |
  |Virtualization Platform      |  VirtualBox   |
  |Security / Attacking Machine |  Kali Linux   |
  |Virtual Network              | NAT Network   |
@@ -51,9 +51,7 @@ The guide recommended, but did not require:
 
 ## 🛡️ Purpose of the Lab
 
-Kali Linux was configured as the main security-testing machine, while
-additional virtual machines could be introduced later as targets for
-practical exercises.
+Kali Linux was configured as the main security-testing machine.
 
 ------------------------------------------------------------------------
 
@@ -96,9 +94,11 @@ Enable DHCP
 
 The NAT Network was configured to use the
 10.0.0.0/24 subnet.
+
 <img width="1308" height="948" alt="Captura de ecrã 2026-09-10 155429" src="https://github.com/user-attachments/assets/c480134d-08ec-484b-a4df-b8050b8dce7d" />
-This network was used by Kali Linux and by additional virtual
-machines added during future lab exercises.
+
+This network was used by Kali Linux.
+
 <img width="1916" height="1004" alt="Captura de ecrã 2026-09-10 185305" src="https://github.com/user-attachments/assets/0d9903df-316b-489d-a56b-19709e91db58" />
 
 
@@ -125,6 +125,7 @@ IP Address: 10.0.0.2/24
 ------------------------------------------------------------------------
 
 ### Step 5 - Configure Kali Linux
+
 <img width="945" height="1025" alt="Captura de ecrã 2026-09-10 193645" src="https://github.com/user-attachments/assets/9abfed9b-2842-4037-acd3-7ac823268f8e" />
 
 
@@ -151,18 +152,6 @@ When Internet connectivity problems
 occur it was used the following command to solve :
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 
-------------------------------------------------------------------------
-## 📋 Virtual Machine Integration Settings
-
-The lab guide requires the following VirtualBox VM features to be
-enabled:
-
--   ✅ Shared Clipboard
--   ✅ File Drag and Drop
--   ✅ Shared Folder
-
-These settings improve interaction between the host operating system and
-Kali Linux.
 -------------------------------------------------------------------------
 
 ### Step 6 - Create a VM Snapshot
@@ -170,8 +159,7 @@ Kali Linux.
 After completing the initial Kali Linux configuration, a
 VirtualBox snapshot.
 
-The snapshot provided a recovery point that could be used before future
-cybersecurity exercises.
+The snapshot provided a recovery point that could be used in the futur.
 
 ------------------------------------------------------------------------
 
@@ -185,8 +173,6 @@ The following items were verified before considering the environment ready:
  |NAT Network created   | `10.0.0.0/24`           |
  |Kali Linux imported   | ✅                       |
  | Kali IP address      |  `10.0.0.2/24`             |
- | Clipboard            |  Enabled                 |
- | Drag & Drop          |  Enabled                 |
  | Internet access      |  Available               |
  | VM snapshot          |  Created                 |
 
@@ -245,14 +231,8 @@ Kali Linux was set up as the main cybersecurity testing machine.
 
 A specific IP address was configured:
 10.0.0.2/24
-5. Virtual Machine Integration
 
-Using:
-
--   Shared Clipboard
--   Drag & Drop
--   Shared Folders
- 6. VM Snapshots
+5. VM Snapshots
 
 A snapshot was created after the initial configuration so the VM could be
 restored before future exercises.
