@@ -36,10 +36,11 @@ The main objectives of this lab were to:
  |Virtualization Platform      |  VirtualBox   |
  |Security / Attacking Machine |  Kali Linux   |
  |Virtual Network              | NAT Network   |
- |Network Address              |  10.0.0.0/24  |
- |Kali Linux IP                | 10.0.0.2/24   |
- |DNS Server                   |  8.8.8.8      |
- |Gateway                      |   10.0.0.1    |
+ |Network Address              |  `10.0.0.0/24`  |
+ |Kali Linux IP                | `10.0.0.2/24`   |
+ |DNS Server                   |  `8.8.8.8`      |
+ |Gateway                      |   `10.0.0.1`    |
+ | NetMask                     |  `24`           |
 
 Recommended Host Specifications
 The guide recommended, but did not require:
