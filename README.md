@@ -246,7 +246,7 @@ restored before future exercises.
 
 ------------------------------------------------------------------------
 
-#📌 Project Information
+# 📌 Project Information
 
 Task: WK1-PM1
 Module: Project Module 1
