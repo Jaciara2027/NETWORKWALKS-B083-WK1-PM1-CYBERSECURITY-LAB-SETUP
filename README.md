@@ -1,4 +1,4 @@
-#🔐 Cybersecurity Lab Environment Setup
+# 🔐 Cybersecurity Lab Environment Setup
 
 > A practical cybersecurity testing lab was built with VirtualBox and Kali Linux, following the Week 1 Project Module 1 lab guide.
 ---------------------------
@@ -27,7 +27,6 @@ The main objectives of this lab were to:
 
 ## 🏗️ Lab Architecture
 
-### Main Environment
 
  |Component                    |   Configuration
  |-----------------------------|------------------------
