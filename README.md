@@ -21,8 +21,7 @@ The main objectives of this lab were to:
 -   Import Kali Linux into VirtualBox;
 -   Configure Kali Linux with the required IP address;
 -   Provide Kali Linux with Internet access;
--   Create a VM snapshot after the initial setup;
--   Prepare the environment for future cybersecurity exercises;
+-   Create a VM snapshot after the initial setup.
 
 ------------------------------------------------------------------------
 
